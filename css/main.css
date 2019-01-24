@@ -1,0 +1,333 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Ovo', serif;
+  font-family: 'Muli', sans-serif;
+  margin: 0 5% 0 5%;
+}
+
+h1 {
+  font-family: Ovo;
+  font-size: 2.7em;
+  font-weight: bold;
+  color: #b38d42;
+  text-align: center;
+  padding-top: 3%;
+}
+
+h2, h3 {
+    font-family: Muli;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #493a1c;
+    text-align: center;
+    padding-top: 3%;
+  }
+
+p {
+    font-family: Muli;
+    font-size: 1.4em;
+    font-weight: lighter;
+    color: #493a1c;
+    text-align: center;
+  }
+
+ul li {
+  font-family: Muli;
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #493a1c;
+  text-align: center;
+  list-style-type: none;
+}
+/***** GRID *****/
+.full-width {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 50%;
+  float: left;
+}
+
+.third-width {
+  width: 33%;
+  float: left;
+  }
+
+
+/***** HEADER *****/
+header h2 {
+  padding: 9% 0 9% 3%;
+  text-align: left;
+  font-family: 'Ovo';
+  font-weight: lighter;
+  font-size: 1.7em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #b38d42;
+}
+
+nav {
+  float: right;
+  padding: 10% 0 10%;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  font-family: 'Ovo';
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: lighter;
+  color: #493a1c;
+  letter-spacing: 1px;
+  padding-right: 35px;
+}
+
+/***** MAIN *****/
+
+/***** INTRO *****/
+#intro .full-width {
+  background-image: url('../img/aragon_heller.png');
+  background-size: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+
+#intro h1 {
+  font-family: Ovo;
+  font-size: 3.8em;
+  font-weight: 400;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  line-height: 1.2em;
+  text-transform: capitalize;
+  color: #b38d42;
+  text-align: center;
+  padding-top: 4%;
+}
+#intro h1 span {
+  font-variant: small-caps;
+}
+
+/***** SEDUCTION *****/
+#seduction h2 {
+  font-family: Muli;
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: #493a1c;
+  text-align: center;
+  width: 90%;
+  padding-top: 3%;
+  padding-left: 5%;
+}
+
+#seduction h2 span {
+  font-size: 1.2em;
+  font-variant: small-caps;
+}
+
+#divider_1, #divider_2, #divider_3, #divider_4, #divider_5{
+  width: 93%;
+  height: 18px;
+  padding-top: 3%;
+  padding-left: 3%;
+}
+
+/***** CUSTOMER SITUATION *****/
+#customer-situation h2 {
+  color: #b38d42;
+}
+
+#customer-situation p {
+  font-family: Muli;
+  font-size: 1.4em;
+  font-weight: lighter;
+  color: #493a1c;
+  text-align: center;
+  padding-left: 7%;
+  padding-right: 7%
+}
+
+#customer-situation span {
+  font-size: 1.2em;
+  font-variant: small-caps;
+}
+
+/***** GET IN TOUCH *****/
+#get-in-touch h2 {
+  font-family: Muli;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #b38d42;
+  text-align: center;
+  padding-top: 3%;
+}
+
+#get-in-touch p {
+  font-family: Muli;
+  font-size: 1.4em;
+  font-weight: lighter;
+  color: #493a1c;
+  text-align: center;
+  padding-left: 7%;
+  padding-right: 7%
+}
+#get-in-touch span {
+  font-size: 1.2em;
+  font-variant: small-caps;
+}
+#CTA a {
+  font-family: Muli;
+  font-size: 2em;
+  font-weight: bold;
+  font-variant: small-caps;
+  color: #b38d42;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 3%;
+  padding-left: 8%;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio h2 {
+    font-family: Ovo;
+    font-size: 2.7em;
+    font-weight: bold;
+    color: #b38d42;
+    text-align: center;
+    padding-top: 1%;
+  }
+
+#rogue-pickings img {
+ width: 90%;
+ height: 50%;
+ max-width: 100%;
+ margin-left: 10%;
+}
+
+#rogue-text h3 {
+  padding-top: 20%;
+}
+
+#rogue-text {
+  padding-bottom: 10%;
+}
+
+#jubilee-text {
+  padding-top: 7%;
+  float: left;
+  clear: both;
+}
+
+#jubilee-image img {
+  width: 90%;
+  height: 40%;
+  max-width: 100%;
+  padding: 7% 2% 5% 10%;
+}
+
+#holstee-image img {
+  width: 90%;
+  height: 30%;
+  max-width: 100%;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-bottom: 5%;
+}
+
+#holstee-text {
+  padding-top: 8%;
+}
+/***** ABOUT *****/
+#about h2 {
+    font-family: Ovo;
+    font-size: 2.7em;
+    font-weight: bold;
+    color: #bf9645;
+    text-align: center;
+  }
+#about {
+  width: 90%;
+  padding-left: 25%;
+}
+
+#about img {
+  padding-left: 17%;
+  padding-top: 38%;
+  float: left;
+}
+
+/***** CONTACT *****/
+#divider_5 {
+  padding-bottom: 1%;
+}
+#contact h2 {
+    font-family: Ovo;
+    font-size: 2.7em;
+    font-weight: bold;
+    color: #bf9645;
+    text-align: center;
+    line-height: 0.5em;
+  }
+#contact h3 {
+    line-height: 0.2em;
+    padding-top: 0%;
+    padding-left: 4%;
+}
+
+#contact p {
+  font-family: Ovo;
+  font-size: 1.8em;
+  font-weight: bolder;
+  color: #bf9645;
+  text-align: center;
+  padding-left: 3%;
+}
+
+#contact ul {
+  padding-right: 5%;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #493a1c;
+}
+
+/***** FOOTER *****/
+#footer p {
+  font-size: 1em;
+  line-height: 0.7em;
+}
+#footer a {
+  font-family: Muli;
+  font-size: 1em;
+  font-weight: normal;
+  color: #493a1c;
+  text-align: center;
+  text-decoration: none;
+  line-height: 0.1em;
+}
+
+/***** IMPRESSUM FOOTER *****/
+#image-impressum img {
+  padding-bottom: 2%;
+  padding-top: 2%;
+  padding-left: 45%;
+}
+#footer a {
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+#datenschutz-siegel img {
+  padding-top: 2%;
+  padding-left: 45%;
+}
